@@ -1,0 +1,252 @@
+@media screen and (min-width:300px) and (max-width: 400px) {
+    .bgImg{
+        width: 200vw;
+        left: -40vw;
+    }
+    .logo{
+        top: -105vh;
+        left: 4vh;
+        height: 20vh;
+        width: 23vw;
+    }
+    .content{
+        top: -83vh;
+        height: 90vh;
+        width: 45vw;
+    }
+
+    #inp{
+        width: 61vw;
+        padding: 5vw;
+    }
+    .sign, .code{
+        width: 64vw;
+        padding: 4vw;
+    }
+    .bottom{
+        margin-top: 1vw;
+        line-height: 2vh;
+    }
+}
+
+
+@media screen and (min-width:401px) and (max-width: 500px) {
+    .bgImg{
+        width: 200vw;
+        left: -40vw;
+    }
+    .logo{
+        top: -104vh;
+        left: 5vh;
+    }
+    .content{
+        top: -83vh;
+        height: 90vh;
+        width: 50vw;
+    }
+
+    #inp{
+        width: 61vw;
+        padding: 3vw;
+    }
+    .sign, .code{
+        width: 64vw;
+        padding: 3vw;
+    }
+    .bottom{
+        margin-top: 2vh;
+        line-height: 3vh;
+    }
+}
+
+
+@media screen and (min-width: 501px) and (max-width: 600px) {
+    .logo{
+        left: 5vh;
+    }
+    .content{
+        top: -83vh;
+        height: 90vh;
+        width: 46vw;
+    }
+
+    #inp{
+        width: 56vw;
+        padding: 3vw;
+    }
+    .sign, .code{
+        width: 60vw;
+        padding: 3vw;
+    }
+    .bottom{
+        margin-top: 2vh;
+        line-height: 3vh;
+    }
+}
+
+
+@media screen and (min-width: 601px) and (max-width: 700px) {
+    .logo{
+        left: 6vh;
+    }
+    .content{
+        top: -83vh;
+        height: 90vh;
+        width: 40vw;
+    }
+
+    #inp{
+        width: 51vw;
+        padding: 2vw;
+    }
+    .sign, .code{
+        width: 54vw;
+        padding: 2vw;
+    }
+    .bottom{
+        margin-top: 2vh;
+        line-height: 3vh;
+    }
+}
+
+
+@media screen and (min-width: 701px) and (max-width: 800px) {
+    .logo{
+        left: 8vh;
+    }
+    .content{
+        top: -83vh;
+        height: 90vh;
+        width: 32vw;
+    }
+
+    #inp{
+        width: 42vw;
+        padding: 2vw;
+    }
+    .sign, .code{
+        width: 45vw;
+        padding: 2vw;
+    }
+    .bottom{
+        margin-top: 2vh;
+        line-height: 3vh;
+    }
+}
+
+
+
+@media screen and (min-width: 801px) and (max-width: 900px) {
+    .content{
+        top: -83vh;
+        height: 90vh;
+        width: 32vw;
+    }
+
+    #inp{
+        width: 42vw;
+        padding: 2vw;
+    }
+    .sign, .code{
+        width: 45vw;
+        padding: 2vw;
+    }
+    .bottom{
+        margin-top: 2vh;
+        line-height: 3vh;
+    }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1000px) {
+    .content{
+        top: -83vh;
+        width: 29vw;
+        height: 90vh;
+    }
+
+    #inp{
+        width: 38vw;
+        padding: 2vw;
+    }
+    .sign, .code{
+        width: 41vw;
+        padding: 2vw;
+    }
+    .bottom{
+        margin-top: 2vh;
+        line-height: 2vh;
+    }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1100px) {
+    .content{
+        top: -83vh;
+        width: 27vw;
+        height: 90vh;
+    }
+
+    #inp{
+        width: 36vw;
+        padding: 2vw;
+    }
+    .sign, .code{
+        width: 39vw;
+        padding: 2vw;
+    }
+    .bottom{
+        margin-top: 2vh;
+        line-height: 2vh;
+    }
+}
+
+@media screen and (min-width: 1101px) and (max-width: 1200px) {
+    .content{
+        top: -82vh;
+        width: 27vw;
+        height: 90vh;
+    }
+    #inp{
+        width: 36vw;
+        padding: 2vw;
+    }
+    .sign, .code{
+        width: 39vw;
+        padding: 2vw;
+    }
+    .bottom{
+        margin-top: 2vh;
+        line-height: 2vh;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1351px) {
+    .content{
+        top: -84vh;
+        width: 27vw;
+        height: 90vh;
+    }
+    #inp{
+        width: 36vw;
+        padding: 2vw;
+    }
+    .sign, .code{
+        width: 39vw;
+        padding: 2vw;
+    }
+}
+
+@media screen and (min-width: 1351px)  {
+    .content{
+        top: -90vh;
+        width: 25vw;
+        height: 90vh;
+    }
+    #inp{
+        width: 34vw;
+        padding: 2vw;
+    }
+    .sign, .code{
+        width: 37vw;
+        padding: 2vw;
+    }
+}

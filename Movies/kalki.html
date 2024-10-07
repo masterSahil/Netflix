@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie: Kalki</title>
+
+    <style>
+        body{
+            margin: 0;
+            background-image: linear-gradient(to top left, brown, brown, gold);
+            background-repeat: no-repeat;
+            min-height: 100vh;
+        }
+        *::selection{
+            background: #fff;
+            color: red;
+            text-decoration: underline wavy;
+        }
+        .main{
+            display: flex;
+            justify-content: center;
+        }
+        .container{
+            padding: 5vw;
+        }
+        .content{
+            display: flex;
+            justify-content: center;
+        }
+        .text{
+            font: 2em Verdana, Geneva, Tahoma, sans-serif;
+            padding: 0 5vw 0 5vw;
+            text-align: justify;
+            color: #fff;
+            animation: txt 3.5s infinite ease-in-out;
+            position: relative;
+        }
+        .button{
+            display: flex;
+            justify-content: center;
+        }
+        button{
+            color: white;
+            background: red;
+            padding: 2vh;
+            border: none;
+            border-radius: 10px;
+            margin-bottom: 5vh;
+            width: 20vh;
+            cursor: pointer;
+            font: 1em sans-serif;
+            font-weight: bold;
+        }
+        button:hover{
+            background: #fff;
+            color: red;
+            border: 2.5px solid;
+        }
+        img{
+            animation: animate 10s ease-in-out;
+            position: relative;
+        }
+
+        @keyframes animate{
+            0%{
+                top: 0;
+                scale: .6;
+            }
+            25%{
+                transform: rotateX(360deg);
+                scale: .7;
+            }
+            50%{
+                transform: rotateY(360deg);
+                scale: .8;
+            }
+            100%{
+                top: 2vh;
+                scale: .9;
+            }
+        }
+        @keyframes txt {
+            0%{
+                top: -.5vw;
+            }
+            20%{
+                top: .25vw;
+            }
+            30%{
+                top: .5vw;
+            }
+            40%{
+                top: .75vw;
+            }
+            50%{
+                top: 1vw;
+            }
+            60%{
+                top: .75vw;
+            }
+            70%{
+                top: .5vw;
+            }
+            80%{
+                top: .25vw;
+            }
+            90%{
+                top: .15vw;
+            }
+            100%{
+                top: -.5vw;
+            }
+        }
+        .box{
+            margin-top: 4vh;
+            display: flex;
+            justify-content: center;
+            gap: 3vh;
+        }
+        .subBox{
+            background: gray;
+            color: #fff;
+            padding: 1vw;
+            border-radius: 4px;
+        }
+        @media screen and (max-width: 400px) {
+            img{
+                width: 80vw;
+            }
+            .text{
+                font: 2em sans-serif;
+            }
+            button{
+                width: 18vh;
+            }
+            .box{
+                gap: 1vh;
+            }
+            .subBox{
+                padding: 2px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <img src="img2/kalki.jpg" alt="Image of Kalki Movie">
+        </div>
+    </div>
+
+    <div class="box">
+        <span class="subBox">2024</span>
+        <span class="subBox">U/A 13+</span>
+        <span class="subBox">Movie</span>
+        <span class="subBox">Action</span>
+        <span class="subBox">Adventure</span>
+    </div>
+
+    <div class="content">
+        <p class="text">
+            The future of those in the dystopian city of Kasi is altered when the destined arrival of Lord Vishnu's final avatar launches a war against darkness.
+        </p>
+    </div>
+
+    <div class="button">
+        <a href="https://youtu.be/aninoDcPWo4?si=cgHGRo77LmkDbjIr"><button>Get Started</button></a>
+    </div>
+
+</body>
+</html>

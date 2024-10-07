@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie: Union</title>
+
+    <style>
+        body{
+            margin: 0;
+            background-image: linear-gradient(to bottom right,rgb(251, 203, 114), rgb(101, 231, 2), rgb(4, 200, 4), rgb(4, 200, 4), rgb(4, 200, 4), rgb(111, 255, 0));
+            background-repeat: no-repeat;
+            min-height: 100vh;
+        }
+        *::selection{
+            background: #fff;
+            color: red;
+            text-decoration: underline wavy;
+        }
+        .main{
+            display: flex;
+            justify-content: center;
+        }
+        .container{
+            padding: 5vw;
+        }
+        .content{
+            display: flex;
+            justify-content: center;
+        }
+        .text{
+            font: 2em Verdana, Geneva, Tahoma, sans-serif;
+            padding: 0 7vw 0 7vw;
+            text-align: justify;
+            color: #fff;
+            animation: txt 3.5s infinite ease-in-out;
+            position: relative;
+        }
+        .button{
+            display: flex;
+            justify-content: center;
+        }
+        button{
+            color: white;
+            background: red;
+            padding: 2vh;
+            border: none;
+            border-radius: 10px;
+            margin-bottom: 5vh;
+            width: 20vh;
+            cursor: pointer;
+            font: 1em sans-serif;
+            font-weight: bold;
+        }
+        button:hover{
+            background: #fff;
+            color: red;
+            border: 2.5px solid;
+        }
+        img{
+            animation: animate 10s ease-in-out;
+            position: relative;
+        }
+        .box{
+            margin-top: 4vh;
+            display: flex;
+            justify-content: center;
+            gap: 3vh;
+        }
+        .subBox{
+            background: gray;
+            color: #fff;
+            padding: 1vw;
+            border-radius: 4px;
+        }
+
+        @keyframes animate{
+            0%{
+                top: 0;
+                scale: .6;
+            }
+            15%{
+                transform: rotateX(360deg);
+                scale: .85;
+            }
+            40%{
+                transform: rotateY(360deg);
+                scale: 1.1;
+            }
+            100%{
+                top: 2vh;
+                scale: 1.15;
+            }
+        }
+        @keyframes txt {
+            0%{
+                top: -.8vw;
+            }
+            20%{
+                top: .25vw;
+            }
+            30%{
+                top: .75vw;
+            }
+            40%{
+                top: 1.1vw;
+            }
+            50%{
+                top: 1.25vw;
+            }
+            60%{
+                top: 1.25vw;
+            }
+            70%{
+                top: 1.1vw;
+            }
+            80%{
+                top: .75vw;
+            }
+            90%{
+                top: .25vw;
+            }
+            100%{
+                top: -.8vw;
+            }
+        }
+        @media screen and (max-width: 400px) {
+            img{
+                width: 80vw;
+            }
+            .text{
+                font: 1.3em sans-serif;
+            }
+            button{
+                width: 18vh;
+            }
+        }
+        @media screen and (min-width: 401px) and (max-width: 800px) {
+            img{
+                width: 80vw;
+            }
+            .text{
+                font: 1.3em sans-serif;
+            }
+            button{
+                width: 18vh;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <img src="img2/unioun.jpg" alt="Image of Kalki Movie">
+        </div>
+    </div>
+
+    <div class="box">
+        <span class="subBox">TheUnion</span>
+        <span class="subBox">Action</span>
+        <span class="subBox">Style</span>
+        <span class="subBox">Thrill</span>
+    </div>
+
+    <div class="content">
+        <p class="text">
+            "The Union" is an upcoming action thriller starring Tollywood superstar NTR Jr. Directed by Koratala Siva, the film is packed with high-octane action sequences, gripping drama, and powerful storytelling. With a stellar cast and a storyline that focuses on themes of unity and strength, "The Union" aims to be an electrifying cinematic experience for fans of South Indian cinema.
+        </p>
+    </div>
+
+    <div class="button">
+        <a href="https://youtu.be/oFDLwkL54jQ?si=PAkAtV6lLU5BELsO"><button>Get Started</button></a>
+    </div>
+
+</body>
+</html>

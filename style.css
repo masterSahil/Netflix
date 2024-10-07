@@ -1,0 +1,243 @@
+body{
+    margin: 0;
+    background: #000;
+    color: #fff;
+}
+*::selection{
+    background: #fff;
+    color: red;
+}
+button{
+    cursor: pointer;
+}
+.para1::selection{
+    background: purple;
+    color: #fff;
+}
+.container{
+    height: 100vh;
+    overflow: hidden;
+}
+.contentbg{
+    height: 45vh;
+    width: 70vw;
+}
+.bg{
+    position: relative;
+    left: -10vw;
+    filter: blur(.6px);
+    opacity: .40;
+    width: 110vw;
+    height: 100vh;
+}
+.logo{
+    position: relative;
+    left: 1.5vw;
+    top: -47vh;
+    width: 16vw;
+    filter: brightness(2.3);
+}
+.select{
+    position: relative;
+    top: -62vh;
+    left: 57vw;
+    padding: 1vh;
+    background: #000;
+    color: #fff;
+    border: 1px solid;
+    border-radius: 3px;
+    font: 1.2em sans-serif;
+}
+.sign-in{
+    position: relative;
+    padding: 1.1vw;
+    color: #fff;
+    background: red;
+    border: none;
+    border-radius: 7px;
+    top: -62.5vh;
+    left: 63vw;
+}
+.sign-in:hover{
+    background: #fff;
+    color: red;
+    font-weight: bold;
+    transform: scale(1.1);
+    border: 1px solid;
+    box-shadow: 1.5px .5px 2px red;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+}
+.paraHeading{
+    position: relative;
+    line-height: 8vh;
+    top: -30vh;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-weight: 1000;
+}
+.para1{
+    position: relative;
+    top: -32vh;
+    text-align: center;
+    filter: brightness(100);
+    font-weight: 550;
+    font: 1.3em Arial, sans-serif;
+}
+.para2{
+    margin: 8vw;
+    position: relative;
+    top: -35vh;
+    text-align: center;
+}
+.email{
+    display: flex;
+    justify-content: center;
+}
+#email{
+    position: relative;
+    top: -36vh;
+    padding: 2.35vh;
+    background: #212121 ;
+    border: none;
+    opacity: .99;
+    border-radius: 1.5vh;
+    border: 1px solid #fff;
+    outline: none;
+    color: #fff;
+}
+#email::placeholder{
+    color: #fff;
+}
+.getStart{
+    left: 2vw;
+    position: relative;
+    top: -36vh;
+    background: red;
+    border: none;
+    border-radius: 1.5vh;
+    color: #fff;
+    padding: 2vh;
+}
+.getStart:hover{
+    background: #fff;
+    color: red;
+    border: 1px solid;
+    box-shadow: 1.5px 1.5px 2px red;
+    font-weight: bold;
+}
+.container2{
+    margin: 5vh 10vh 5vh 10vh;
+}
+.para3, .para4, .para9{
+    font: 5vh sans-serif;
+}
+.country, .movies{
+    background: #000;
+    color: #fff;
+    border: 1px solid;
+    border-radius: 3px;
+    padding: 1.5vh;
+    margin-right: 3vw;
+}
+.movieImg{
+    display: flex;
+    max-width: 100vw;
+    overflow: auto;
+    margin: 5vh 1vw 1vw 1vw;
+}
+.subImg{
+    margin: 2vh 3vw 2vh 3vw;
+    border-radius: .5vw;
+    height: 40vh;
+    transition: .5s;
+}
+.subImg:hover{
+    transform: scale(.90);
+}
+.content3{
+    display: flex;
+    max-width: 100vw;
+    margin: 5vh 1vw 1vw 1vw;
+    overflow: auto;
+}
+.reasons{
+    width: 100vh;
+    height: 36vh;
+    letter-spacing: 1px;
+    border: 1px solid;
+    margin-right: 1vw;
+    border-radius: 5px;
+    background-image: linear-gradient(to bottom right, purple, purple, purple, blue, blue);
+    padding: 2vh;
+    padding-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: .5s;
+    margin-right: 3vw;
+}
+.reasons:hover{
+    transform: scale(.90);
+}
+.Para5, .Para6, .Para7, .Para8{
+    font-size: 3vh;
+    font-weight: bold;
+    height: 12vh;
+    border-bottom: 1px solid;
+}
+.subPara5, .subPara6, .subPara7, .subPara8{
+    font-size: 2.68vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.content4{
+    width: 90vw;
+}
+.accordion{
+    width: 90vw;
+    height: 8vh;
+    margin-top: 1vh;
+    text-align: left;
+    padding-left: 5vw;
+    border: none;
+    font: 1.5em Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    background: rgb(54, 54, 54);
+}
+.accordion:hover, .active{
+    background: gray;
+}
+#plus{
+    float: right;
+    font-size: 3.5vh;
+}
+.panel{
+    overflow: hidden;
+    padding: 0 8vw;
+    font: 2.8vh Verdana, Geneva, Tahoma, sans-serif;
+    background: rgb(54, 54, 54);
+    display: none;
+}
+.para11{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#link{
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    display: block;
+    margin-top: 3vh;
+}
+.container5{
+    margin-top: 10vh;
+}
+.content5{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5vh;
+}
+.subContent5{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}

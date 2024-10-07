@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie: Indian2</title>
+
+    <style>
+        body{
+            margin: 0;
+            background-image: linear-gradient(to bottom left, red, rgba(251, 145, 6, 0.977),rgb(251, 165, 6));
+            background-repeat: no-repeat;
+            min-height: 100vh;
+        }
+        *::selection{
+            background: #fff;
+            color: red;
+            text-decoration: underline wavy;
+        }
+        .main{
+            display: flex;
+            justify-content: center;
+        }
+        .container{
+            padding: 5vw;
+        }
+        .content{
+            display: flex;
+            justify-content: center;
+        }
+        .text{
+            font: 2em Verdana, Geneva, Tahoma, sans-serif;
+            padding: 0 5vw 0 5vw;
+            text-align: justify;
+            color: #fff;
+            animation: txt 3.5s infinite ease-in-out;
+            position: relative;
+        }
+        .button{
+            display: flex;
+            justify-content: center;
+        }
+        button{
+            color: white;
+            background: red;
+            padding: 2vh;
+            border: none;
+            border-radius: 10px;
+            margin-bottom: 5vh;
+            width: 20vh;
+            cursor: pointer;
+            font: 1em sans-serif;
+            font-weight: bold;
+        }
+        button:hover{
+            background: #fff;
+            color: red;
+            border: 2.5px solid;
+        }
+        img{
+            animation: animate 10s ease-out;
+            position: relative;
+        }
+        .box{
+            margin-top: 4vh;
+            display: flex;
+            justify-content: center;
+            gap: 3vh;
+        }
+        .subBox{
+            background: gray;
+            color: #fff;
+            padding: 1vw;
+            border-radius: 4px;
+        }
+
+        @keyframes animate{
+            0%{
+                top: 0;
+                scale: .6;
+            }
+            15%{
+                transform: rotateX(360deg);
+                scale: .85;
+            }
+            40%{
+                transform: rotateY(360deg);
+                scale: 1.1;
+            }
+            100%{
+                top: 2vh;
+                scale: 1.15;
+            }
+        }
+        @keyframes txt {
+            0%{
+                top: .25vw;
+            }
+            20%{
+                top: .55vw;
+            }
+            30%{
+                top: .85vw;
+            }
+            40%{
+                top: 1.25vw;
+            }
+            50%{
+                top: 1.5vw;
+            }
+            60%{
+                top: 1.25vw;
+            }
+            70%{
+                top: .85vw;
+            }
+            80%{
+                top: .55vw;
+            }
+            90%{
+                top: .45vw;
+            }
+            100%{
+                top: .25vw;
+            }
+        }
+        @media screen and (max-width: 800px) {
+            img{
+                width: 80vw;
+            }
+            .text{
+                font: 1.75em sans-serif;
+            }
+            button{
+                width: 18vh;
+            }
+        }
+        @media screen and (max-width: 400px) {
+            .box{
+                gap: 1vh;
+            }
+            .subBox{
+                padding: 2px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <img src="img2/indian.jpg" alt="Image of Kalki Movie">
+        </div>
+    </div>
+
+    <div class="box">
+        <span class="subBox">IndianFranchise</span>
+        <span class="subBox">Shankar</span>
+        <span class="subBox">Kollywood</span>
+    </div>
+
+    <div class="content">
+        <p class="text">
+            "Indian 2" is a highly anticipated Tamil action thriller directed by Shankar, starring Kamal Haasan in the lead role. A sequel to the 1996 blockbuster "Indian," the film continues the story of Senapathy, a vigilante determined to eradicate corruption from society. 
+        </p>
+
+    </div>
+
+    <div class="button">
+        <a href="https://youtu.be/Vt4R3-zXksY?si=uUbtU0P7wx-pX-Qk"><button>Get Started</button></a>
+    </div>
+
+</body>
+</html>

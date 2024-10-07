@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie: The Meg</title>
+
+    <style>
+        body{
+            margin: 0;
+            background-image: linear-gradient(to bottom right, rgb(0, 255, 225), aqua, teal, teal, teal, teal, teal, teal, blue, blue);
+            background-repeat: no-repeat;
+            min-height: 100vh;
+        }
+        *::selection{
+            background: #fff;
+            color: red;
+            text-decoration: underline wavy;
+        }
+        .main{
+            display: flex;
+            justify-content: center;
+        }
+        .container{
+            padding: 5vw;
+        }
+        .content{
+            display: flex;
+            justify-content: center;
+        }
+        .text{
+            font: 2em Verdana, Geneva, Tahoma, sans-serif;
+            padding: 0 7vw 0 7vw;
+            text-align: justify;
+            color: #fff;
+            animation: txt 3.5s infinite ease-in-out;
+            position: relative;
+        }
+        .button{
+            display: flex;
+            justify-content: center;
+        }
+        button{
+            color: white;
+            background: red;
+            padding: 2vh;
+            border: none;
+            border-radius: 10px;
+            margin-bottom: 5vh;
+            width: 20vh;
+            cursor: pointer;
+            font: 1em sans-serif;
+            font-weight: bold;
+        }
+        button:hover{
+            background: #fff;
+            color: red;
+            border: 2.5px solid;
+        }
+        img{
+            animation: animate 10s ease-in-out;
+            position: relative;
+        }
+        .box{
+            margin-top: 4vh;
+            display: flex;
+            justify-content: center;
+            gap: 3vh;
+        }
+        .subBox{
+            background: gray;
+            color: #fff;
+            padding: 1vw;
+            border-radius: 4px;
+        }
+
+        @keyframes animate{
+            0%{
+                top: 0;
+                scale: .6;
+            }
+            15%{
+                transform: rotateX(360deg);
+                scale: .85;
+            }
+            40%{
+                transform: rotateY(360deg);
+                scale: 1.1;
+            }
+            100%{
+                top: 2vh;
+                scale: 1.15;
+            }
+        }
+        @keyframes txt {
+            0%{
+                top: -.8vw;
+            }
+            20%{
+                top: .25vw;
+            }
+            30%{
+                top: .75vw;
+            }
+            40%{
+                top: 1.1vw;
+            }
+            50%{
+                top: 1.25vw;
+            }
+            60%{
+                top: 1.25vw;
+            }
+            70%{
+                top: 1.1vw;
+            }
+            80%{
+                top: .75vw;
+            }
+            90%{
+                top: .25vw;
+            }
+            100%{
+                top: -.8vw;
+            }
+        }
+        @media screen and (max-width: 400px) {
+            img{
+                width: 80vw;
+            }
+            .text{
+                font: 1.3em sans-serif;
+            }
+            button{
+                width: 18vh;
+            }
+            .box{
+                gap: 1vh;
+            }
+            .subBox{
+                padding: 2px;
+            }
+        }
+        @media screen and (min-width: 401px) and (max-width: 800px) {
+            img{
+                width: 80vw;
+            }
+            .text{
+                font: 1.3em sans-serif;
+            }
+            button{
+                width: 18vh;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <img src="img2/meg.jpg" alt="Image of Kalki Movie">
+        </div>
+    </div>
+
+    <div class="box">
+        <span class="subBox">Megalodon</span>
+        <span class="subBox">SciFiAction</span>
+        <span class="subBox">Survival</span>
+    </div>
+
+    <div class="content">
+        <p class="text">
+            "The Meg" is a thrilling science fiction action film that revolves around a group of scientists who face off against a colossal prehistoric shark known as the Megalodon. Starring Jason Statham, the movie is filled with breathtaking underwater action, suspense, and a battle for survival against the giant predator. "The Meg" offers an exhilarating adventure for fans of monster films.
+        </p>
+    </div>
+
+    <div class="button">
+        <a href="https://youtu.be/dG91B3hHyY4?si=wZq2uCTdQa2xcMoQ"><button>Get Started</button></a>
+    </div>
+
+</body>
+</html>

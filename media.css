@@ -1,0 +1,485 @@
+/* Media query for background image */
+
+@media screen and (min-width: 901px) and (max-width: 1100px) {
+    .bg{
+        height: 110vh;
+    }
+} 
+@media screen and (min-width: 501px) and (max-width: 900px) {
+    .bg{
+        height: 100vh;
+    }
+}
+@media screen and (min-width: 300px) and (max-width: 500px) {
+    .bg{
+        height: 100vh;
+    }
+    .logo{
+        top: -42vh;
+    }
+}
+
+/* Media query for select and logo */
+
+@media screen and (min-width: 901px) and (max-width: 1000px) {
+    .select{
+        position: relative;
+        top: -59vh;
+        left: 55vw;
+        font: 1em sans-serif;
+    }
+
+}
+@media screen and (min-width: 801px) and (max-width: 900px) {
+    .select{
+        position: relative;
+        top: -58vh;
+        left: 53vw;
+        font: .9em sans-serif;
+    }
+}
+@media screen and (min-width: 701px) and (max-width: 800px) {
+    .select{
+        position: relative;
+        top: -56vh;
+        left: 50vw;
+        font: .85em sans-serif;
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 700px) {
+    .select{
+        position: relative;
+        top: -54vh;
+        left: 46.5vw;
+        font: .85em sans-serif;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 600px) {
+    .select{
+        position: relative;
+        padding: 1vw;
+        top: -52vh;
+        left: 42vw;
+        font: .8em sans-serif;
+    }
+    .logo{
+        top: -45vh;
+        width: 19vw;
+    }
+}
+@media screen and (min-width: 401px) and (max-width: 500px) {
+    .select{
+        position: relative;
+        padding: .5vw;
+        width: 19.5vw;
+        top: -48.5vh;
+        left: 34.5vw;
+        font: .82em sans-serif;
+    }
+    .logo{
+        width: 22vw;
+        left: 5vw;
+    }
+}
+@media screen and (min-width: 200px) and (max-width: 400px) {
+    .select{
+        position: relative;
+        padding: 1vw;
+        top: -47vh;
+        left: 29vw;
+        width: 18.5vw;
+        font: .85em sans-serif;
+    }
+    .logo{
+        left: 5vw;
+        width: 25vw;
+    }
+}
+
+/* Media Query for sing-in button */
+
+@media screen and (min-width: 901px) and (max-width: 1000px) {
+    .sign-in{
+        top: -59vh;
+    }
+}
+@media screen and (min-width: 801px) and (max-width: 900px) {
+    .sign-in{
+        top: -58vh;
+    }
+}
+@media screen and (min-width: 701px) and (max-width: 800px) {
+    .sign-in{
+        top: -56vh;
+        left: 56vw;
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 700px) {
+    .sign-in{
+        top: -54vh;
+        left: 53vw;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 600px) {
+    .sign-in{
+        top: -52vh;
+        left: 47vw;
+    }
+}
+@media screen and (min-width: 401px) and (max-width: 500px) {
+    .sign-in{
+        top: -48.5vh;
+        left: 40vw;
+        padding: 1.3vw;
+    }
+}
+@media screen and (min-width: 200px) and (max-width: 400px) {
+    .sign-in{
+        padding: .8vw;
+        top: -47vh;
+        left: 31vw;
+        padding: 2vw;
+    }
+}
+
+/* Media query for heading , paragraph 1 and 2 */
+
+@media screen and (min-width: 300px) and (max-width: 500px) {
+    .paraHeading{
+        font-weight: 550;
+        font-size: x-large;
+    }
+    .para1{
+        font-size: large;
+    }
+    .para2{
+        font-size: 4mm;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 700px) {
+    .paraHeading{
+        font-weight: 600;
+        font-size: xx-large;
+    }
+    .para1{
+        font-size: x-large;
+    }
+    .para2{
+        top: -36.5vh;
+        font-size: 5mm;
+    }
+}
+@media screen and (min-width: 701px) and (max-width: 900px) {
+    .paraHeading{
+        font-weight: 750;
+        font-size: xx-large;
+    }
+    .para1{
+        font-size: x-large;
+    }
+    .para2{
+        top: -37.5vh;
+        font-size: 5mm;
+    }
+}
+@media screen and (min-width: 901px){
+    .para1{
+        font-size: x-large;
+    }
+    .para2{
+        top: -40.5vh;
+        font-size: 5mm;
+    }
+}
+
+/* Media query for heading, paragraph, email, start button  */
+
+/* Media query for container2, para3, country, movies */
+
+
+/*      Range:-           0  to  400px */
+@media screen and (max-width: 400px) {
+    .container2{
+        margin: 3vh 2vh 3vh 2vh;
+    }
+    .para3, .para4, .para9{
+        font-size: 3.5vh;
+    }
+    .country, .movies{
+        padding: 1vw;
+    }
+    .subImg{
+        height: 31vh;
+    }
+    .Para5, .Para6, .Para7, .Para8{
+        font-size: 1.75vh;
+        height: 8vh;
+    }
+    .subPara5, .subPara6, .subPara7, .subPara8{
+        font-size: 1.6vh;
+        width: 28vw;
+    }
+    .reasons{
+        height: 26vh;
+    }
+    .accordion, #plus{
+        font-size: 2.5vh;
+    }
+    .panel{
+        font-size: 1.85vh;
+    }
+}
+
+
+/*      Range:-           401px  to  500px */
+@media screen and (min-width: 401px) and (max-width: 500px) {
+    .container2{
+        margin: 3vh 3.5vh 3vh 3.5vh;
+    }
+    .para3, .para4, .para9{
+        font-size: 3.6vh;
+    }
+    .country, .movies{
+        padding: 1.3vw;
+    }
+    .subImg{
+        height: 31.5vh;
+    }
+    .Para5, .Para6, .Para7, .Para8{
+        font-size: 1.8vh;
+        height: 6vh;
+    }
+    .subPara5, .subPara6, .subPara7, .subPara8{
+        font-size: 1.7vh;
+        line-height: 2.1vh;
+        width: 26vw;
+    }
+    .reasons{
+        height: 26vh;
+    }
+    .accordion, #plus{
+        font-size: 2.4vh;
+    }
+    .panel{
+        font-size: 2vh;
+    }
+}
+
+/*      Range:-           501px  to  600px */
+@media screen and (min-width: 501px) and (max-width: 600px) {
+    .container2{
+        margin: 3vh 5vh 3vh 5vh;
+    }
+    .para3, .para4, .para9{
+        font-size: 3.8vh;
+    }
+    .country, .movies{
+        padding: 1.3vw;
+    }
+    .subImg{
+        height: 33vh;
+    }
+    .Para5, .Para6, .Para7, .Para8{
+        font-size: 2.2vh;
+        height: 7.5vh;
+    }
+    .subPara5, .subPara6, .subPara7, .subPara8{
+        font-size: 2vh;
+        width: 24.5vw;
+    }
+    .reasons{
+        height: 29vh;
+    }
+    .accordion, #plus{
+        font-size: 2.7vh;
+    }
+    .panel{
+        font-size: 2.1vh;
+    }
+}
+
+/*      Range:-           601px  to  700px */
+@media screen and (min-width: 601px) and (max-width: 700px) {
+    .container2{
+        margin: 3vh 6vh 3vh 6vh;
+    }
+    .subImg{
+        height: 34vh;
+    }
+    .para3, .para4, .para9{
+        font-size: 3.8vh;
+    }
+    .Para5, .Para6, .Para7, .Para8{
+        font-size: 2.3vh;
+        height: 8vh;
+    }
+    .subPara5, .subPara6, .subPara7, .subPara8{
+        font-size: 2.15vh;
+        line-height: 15px;
+        width: 24vw;
+    }
+    .reasons{
+        height: 30vh;
+    }
+    .accordion, #plus{
+        font-size: 2.8vh;
+    }
+    .panel{
+        font-size: 2.3vh;
+    }
+}
+
+
+/*      Range:-           701px  to  800px */
+@media screen and (min-width: 701px) and (max-width: 800px) {
+    .paraHeading{
+        top: -46vh;
+    }
+    .para1{
+        top: -44vh;
+    }
+    .para2{
+        top: -50vh;
+    }
+    .para3, .para4, .para9{
+        font-size: 3.9vh;
+    }
+    #email{
+        top: -45vh;
+    }
+    .getStart{
+        top: -45vh;
+    }
+    .container2{
+        margin: 3vh 6.5vh 3vh 6.5vh;
+    }
+    .subImg{
+        height: 34vh;
+    }
+    .Para5, .Para6, .Para7, .Para8{
+        font-size: 2.5vh;
+        height: 10vh;
+    }
+    .subPara5, .subPara6, .subPara7, .subPara8{
+        font-size: 2.1vh;
+        width: 24vw;
+    }
+    .reasons{
+        height: 31vh;
+    }
+    .accordion, #plus{
+        font-size: 3vh;
+    }
+    .panel{
+        font-size: 2.5vh;
+    }
+}
+
+
+/*      Range:-           801px  to  900px */
+@media screen and (min-width: 801px) and (max-width: 900px) {
+    .paraHeading{
+        top: -45vh;
+    }
+    .para1{
+        top: -43vh;
+    }
+    .para2{
+        top: -50vh;
+    }    
+    .para3, .para4, .para9{
+        font-size: 4vh;
+    }
+    #email{
+        top: -45vh;
+    }
+    .getStart{
+        top: -45vh;
+    }
+    .container2{
+        margin: 3vh 7vh 3vh 7vh;
+    }
+    .subImg{
+        height: 35.5vh;
+    }
+    .Para5, .Para6, .Para7, .Para8{
+        font-size: 2.5vh;
+        height: 10vh;
+    }
+    .subPara5, .subPara6, .subPara7, .subPara8{
+        font-size: 2.3vh;
+        width: 22vw;
+    }
+    .reasons{
+        height: 34vh;
+    }
+}
+
+
+/*      Range:-           901px  to  1100px */
+@media screen and (min-width: 901px) and (max-width: 1100px) {
+    .paraHeading{
+        top: -50vh;
+    }
+    .para1{
+        top: -45vh;
+    }
+    .para2{
+        top: -52vh;
+    }
+    .para3, .para4, .para9{
+        font-size: 4.2vh;
+    }
+    #email{
+        top: -56vh;
+    }
+    .getStart{
+        top: -56vh;
+    }
+    .container2{
+        margin: 5vh 8.5vh 5vh 8.5vh;
+    }
+    .country, .movies{
+        padding: 1.45vw;
+    }
+    .subImg{
+        height: 37vh;
+    }
+    .content3{
+        max-width: 95vw;
+    }
+    .Para5, .Para6, .Para7, .Para8{
+        font-size: 3vh;
+        height: 10vh;
+    }
+    .subPara5, .subPara6, .subPara7, .subPara8{
+        font-size: 2.8vh;
+        width: 22vw;
+    }
+    .reasons{
+        height: 36vh;
+    }
+    #link{
+        margin-right: 7vw;
+    }
+}
+
+
+/*      Range:-           1100px  to the Last */
+@media screen and (min-width: 1101px){
+    .paraHeading{
+        top: -54vh;
+    }
+    .para1{
+        top: -50vh;
+    }
+    .para2{
+        top: -59vh;
+    }
+    #email{
+        top: -60vh;
+    }
+    .getStart{
+        top: -60vh;
+    }
+}

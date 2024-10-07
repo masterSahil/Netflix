@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie: Maharaja</title>
+
+    <style>
+        body{
+            margin: 0;
+            background-image: linear-gradient(to bottom right, gold, orange, orange, orange, brown);
+            background-repeat: no-repeat;
+            min-height: 100vh;
+        }
+        *::selection{
+            background: #fff;
+            color: red;
+            text-decoration: underline wavy;
+        }
+        .main{
+            display: flex;
+            justify-content: center;
+        }
+        .container{
+            padding: 5vw;
+        }
+        .content{
+            display: flex;
+            justify-content: center;
+        }
+        .text{
+            font: 2em Verdana, Geneva, Tahoma, sans-serif;
+            padding: 0 7vw 0 7vw;
+            text-align: justify;
+            color: #fff;
+            animation: txt 3.5s infinite ease-in-out;
+            position: relative;
+        }
+        .button{
+            display: flex;
+            justify-content: center;
+        }
+        button{
+            color: white;
+            background: red;
+            padding: 2vh;
+            border: none;
+            border-radius: 10px;
+            margin-bottom: 5vh;
+            width: 20vh;
+            cursor: pointer;
+            font: 1em sans-serif;
+            font-weight: bold;
+        }
+        button:hover{
+            background: #fff;
+            color: red;
+            border: 2.5px solid;
+        }
+        img{
+            animation: animate 10s ease-in-out;
+            position: relative;
+        }
+        .box{
+            margin-top: 4vh;
+            display: flex;
+            justify-content: center;
+            gap: 3vh;
+        }
+        .subBox{
+            background: gray;
+            color: #fff;
+            padding: 1vw;
+            border-radius: 4px;
+        }
+        @keyframes animate{
+            0%{
+                top: 0;
+                scale: .6;
+            }
+            15%{
+                transform: rotateX(360deg);
+                scale: .85;
+            }
+            40%{
+                transform: rotateY(360deg);
+                scale: 1.1;
+            }
+            100%{
+                top: 2vh;
+                scale: 1.12;
+            }
+        }
+
+        @keyframes txt {
+            0%{
+                top: -.5vw;
+            }
+            20%{
+                top: .25vw;
+            }
+            30%{
+                top: .75vw;
+            }
+            40%{
+                top: 1.1vw;
+            }
+            50%{
+                top: 1.40vw;
+            }
+            60%{
+                top: 1.40vw;
+            }
+            70%{
+                top: 1.1vw;
+            }
+            80%{
+                top: .75vw;
+            }
+            90%{
+                top: .25vw;
+            }
+            100%{
+                top: -.5vw;
+            }
+        }
+        @media screen and (max-width: 400px) {
+            img{
+                width: 80vw;
+            }
+            .text{
+                font: 1.3em sans-serif;
+            }
+            button{
+                width: 18vh;
+            }
+            .box{
+                gap: 1vh;
+            }
+            .subBox{
+                padding: 2px;
+            }
+        }
+        @media screen and (min-width: 401px) and (max-width: 800px) {
+            img{
+                width: 80vw;
+            }
+            .text{
+                font: 1.3em sans-serif;
+            }
+            button{
+                width: 18vh;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <img src="img2/maharaja.jpg" alt="Image of Kalki Movie">
+        </div>
+    </div>
+
+    <div class="box">
+        <span class="subBox">BollywoodDebut</span>
+        <span class="subBox">PeriodFilm</span>
+        <span class="subBox">NewRelease</span>
+    </div>
+
+    <div class="content">
+        <p class="text">
+            "Maharaja" is an upcoming film featuring Junaid Khan, son of Aamir Khan, making his Bollywood debut. The movie is set in a historical context, presenting a gripping tale of power, justice, and rebellion. With an intriguing storyline, strong characters, and a mix of drama and action. 
+        </p>
+    </div>
+
+    <div class="button">
+        <a href="https://youtu.be/n3ttNeXKPHg?si=11wZbeb-3VkY9CK1"><button>Get Started</button></a>
+    </div>
+
+</body>
+</html>
