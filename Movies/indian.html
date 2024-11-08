@@ -33,7 +33,7 @@
             padding: 0 5vw 0 5vw;
             text-align: justify;
             color: #fff;
-            animation: txt 3.5s infinite ease-in-out;
+            animation: txt 2s infinite ease-in-out alternate-reverse both;
             position: relative;
         }
         .button{
@@ -94,34 +94,10 @@
         }
         @keyframes txt {
             0%{
-                top: .25vw;
-            }
-            20%{
-                top: .55vw;
-            }
-            30%{
-                top: .85vw;
-            }
-            40%{
-                top: 1.25vw;
-            }
-            50%{
-                top: 1.5vw;
-            }
-            60%{
-                top: 1.25vw;
-            }
-            70%{
-                top: .85vw;
-            }
-            80%{
-                top: .55vw;
-            }
-            90%{
-                top: .45vw;
+                transform: translateY(-10px);
             }
             100%{
-                top: .25vw;
+                 transform: translateY(10px);
             }
         }
         @media screen and (max-width: 800px) {
