@@ -34,7 +34,7 @@
             text-align: justify;
             color: #fff;
             word-spacing: 3px;
-            animation: txt 3.5s infinite ease-in-out;
+            animation: txt 2s infinite ease-in-out alternate-reverse both;
             position: relative;
         }
         .button{
@@ -85,34 +85,10 @@
 
         @keyframes txt {
             0%{
-                top: -0.5vw;
-            }
-            20%{
-                top: .5vw;
-            }
-            30%{
-                top: 1vw;
-            }
-            40%{
-                top: 1.5vw;
-            }
-            50%{
-                top: 2vw;
-            }
-            60%{
-                top: 2vw;
-            }
-            70%{
-                top: 1.5vw;
-            }
-            80%{
-                top: 1vw;
-            }
-            90%{
-                top: .5vw;
+                transform: translateY(-10px);
             }
             100%{
-                top: -.5vw;
+                transform: translateY(10px);
             }
         }
 
@@ -140,7 +116,6 @@
             padding: 1vw;
             border-radius: 4px;
         }
-
         @media screen and (max-width: 400px) {
             .box{
                 gap: 1vh;
