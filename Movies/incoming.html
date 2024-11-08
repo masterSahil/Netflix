@@ -33,7 +33,7 @@
             padding: 0 7vw 0 7vw;
             text-align: justify;
             color: #fff;
-            animation: txt 3.5s infinite ease-in-out;
+            animation: txt 2s infinite ease-in-out alternate-reverse both;
             position: relative;
         }
         .button{
@@ -95,34 +95,10 @@
         }
         @keyframes txt {
             0%{
-                top: -.8vw;
-            }
-            20%{
-                top: .25vw;
-            }
-            30%{
-                top: .75vw;
-            }
-            40%{
-                top: 1.1vw;
-            }
-            50%{
-                top: 1.25vw;
-            }
-            60%{
-                top: 1.25vw;
-            }
-            70%{
-                top: 1.1vw;
-            }
-            80%{
-                top: .75vw;
-            }
-            90%{
-                top: .25vw;
+                transform: translateY(-10px);
             }
             100%{
-                top: -.8vw;
+                 transform: translateY(10px);
             }
         }
 
